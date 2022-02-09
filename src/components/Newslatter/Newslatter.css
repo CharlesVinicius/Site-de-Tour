@@ -1,0 +1,56 @@
+.client_container{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 120px;
+}
+
+.news{
+    background-color: rgba(185, 185, 185, 0.096);
+    width: 100%;
+    height: 400px;
+}
+
+.news p{
+    margin-bottom: 50px;
+}
+
+.news h1{
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+
+.news input[type="e-mail"]{
+    width: 650px;
+    padding: 15px;
+    outline: none;
+}
+
+.news button{
+    padding: 15px;
+    background-color: #219150;;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:450px){
+    .news{
+        background-color: rgba(185, 185, 185, 0.096);
+        width: 100%;
+        height: 500px;
+    }
+
+    .news input[type="e-mail"]{
+        width: 200px;
+       
+    }
+
+    .client_container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: -30px;
+    }
+}
+
+
+
